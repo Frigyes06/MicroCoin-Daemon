@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: install dependencies
-        run: sudo apt install lazbuild
+        run: sudo apt install lcl-utils-2.0
 
       - name: submodule init & update
         run: |
